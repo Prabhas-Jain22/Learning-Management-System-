@@ -3,6 +3,6 @@
   "outputDirectory": "dist",
   "framework": "vite",
   "env": {
-    "VITE_API_URL": "http://localhost:5000"
+    "VITE_API_URL": "https://learning-management-system-86c4.onrender.com/"
   }
 }
