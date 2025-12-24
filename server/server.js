@@ -18,6 +18,10 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 const MONGO_URI = process.env.MONGO_URI;
 
+app.get("/", (req, res) => {
+  res.send("Welcome to MERN LMS Server");
+});
+
 app.use(
   cors({
     origin: "*",
